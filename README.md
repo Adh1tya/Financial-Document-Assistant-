@@ -32,7 +32,7 @@ A web application that processes financial documents (PDF and Excel) and provide
 1. Download Ollama from [https://ollama.com/download](https://ollama.com/download)
 2. Install the application
 3. Download the LLM model: `ollama pull llama3`
-## 💻 Usage
+## Usage
 
 ### Running the Application
 
@@ -68,7 +68,7 @@ The app uses Ollama's `llama3` model by default. To use a different model:
 1. Download the model: `ollama pull model-name`
 2. Update `qa_engine.py` line with the new model name: `llm = Ollama(model="your-model-name")`
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
