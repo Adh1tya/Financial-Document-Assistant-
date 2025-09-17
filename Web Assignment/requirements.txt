@@ -1,8 +1,0 @@
-streamlit
-pandas
-PyPDF2
-pdfplumber
-openpyxl
-ollama
-langchain
-faiss-cpu
