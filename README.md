@@ -109,7 +109,9 @@ The app uses Ollama's `llama3` model by default. To use a different model:
 - GitHub: [@Adh1tya](https://github.com/Adh1tya)
 - Email: adhityaramya12@gmail.com
 
-## sample-input--output
+
+## Sample Input & Output
+
 ### Input Invoice Screenshot
 
 ![Invoice Input](https://github.com/Adh1tya/Financial-Document-Assistant-/raw/main/output/invoice_detail.png)
