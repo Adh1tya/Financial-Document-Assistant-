@@ -2,6 +2,19 @@
 
 A web application that processes financial documents (PDF and Excel) and provides an interactive question-answering system using natural language processing with local LLMs.
 
+
+## Table of Contents
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Prerequisites](#prerequisites)
+- [Installation & Setup](#installation--setup)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Configuration](#configuration)
+- [Troubleshooting](#troubleshooting)
+- [Author](#author)
+
+
 ## Features
 
 - **Document Processing**: Upload and extract data from PDF and Excel financial documents
