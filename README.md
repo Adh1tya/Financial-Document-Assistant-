@@ -31,7 +31,7 @@ A web application that processes financial documents (PDF and Excel) and provide
 
 1. Download Ollama from [https://ollama.com/download](https://ollama.com/download)
 2. Install the application
-3. Download the LLM model: ollama pull llama3
+3. Download the LLM model: `ollama pull llama3`
 ## 💻 Usage
 
 ### Running the Application
@@ -66,7 +66,7 @@ A web application that processes financial documents (PDF and Excel) and provide
 The app uses Ollama's `llama3` model by default. To use a different model:
 
 1. Download the model: `ollama pull model-name`
-2. Update `qa_engine.py` line with the new model name: llm = Ollama(model="your-model-name")
+2. Update `qa_engine.py` line with the new model name: `llm = Ollama(model="your-model-name")`
 
 ## 🐛 Troubleshooting
 
@@ -87,29 +87,13 @@ The app uses Ollama's `llama3` model by default. To use a different model:
 - Check file size limits (200MB per file in Streamlit)
 - Ensure sufficient system memory for large documents
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Open a Pull Request
-
-##  License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ##  Author
 
 **Adhitya Baskaran**
 - GitHub: [@Adh1tya](https://github.com/Adh1tya)
 - Email: adhityaramya12@gmail.com
-
-## Acknowledgments
-
-- Ollama team for local LLM infrastructure
-- Streamlit for the web framework
-- LangChain for LLM integration tools
 
 ---
 
