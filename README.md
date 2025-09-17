@@ -13,6 +13,7 @@ A web application that processes financial documents (PDF and Excel) and provide
 - [Configuration](#configuration)
 - [Troubleshooting](#troubleshooting)
 - [Author](#author)
+- [Sample Input & Output](#sample-input--output)
 
 
 ## Features
@@ -107,6 +108,15 @@ The app uses Ollama's `llama3` model by default. To use a different model:
 **Adhitya Baskaran**
 - GitHub: [@Adh1tya](https://github.com/Adh1tya)
 - Email: adhityaramya12@gmail.com
+
+## sample-input--output
+### Input Invoice Screenshot
+
+![Invoice Input](https://github.com/Adh1tya/Financial-Document-Assistant-/raw/main/output/invoice_detail.png)
+
+### Model Response Screenshot
+
+![Model Response](https://github.com/Adh1tya/Financial-Document-Assistant-/raw/main/output/Model_response.png)
 
 ---
 
