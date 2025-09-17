@@ -31,13 +31,13 @@ A web application that processes financial documents (PDF and Excel) and provide
 
 1. Download Ollama from [https://ollama.com/download](https://ollama.com/download)
 2. Install the application
-3. Download the LLM model:
+3. Download the LLM model: ollama pull llama3
 ## 💻 Usage
 
 ### Running the Application
 
-1. Activate your virtual environment:
-2. Start the Streamlit app:
+1. Activate your virtual environment: .venv\Scripts\activate # Windows / source .venv/bin/activate # macOS/Linux
+2. Start the Streamlit app: streamlit run app.py
 
 3. Open your browser and navigate to the displayed URL (typically `http://localhost:8501`)
 
@@ -66,7 +66,7 @@ A web application that processes financial documents (PDF and Excel) and provide
 The app uses Ollama's `llama3` model by default. To use a different model:
 
 1. Download the model: `ollama pull model-name`
-2. Update `qa_engine.py` line with the new model name
+2. Update `qa_engine.py` line with the new model name: llm = Ollama(model="your-model-name")
 
 ## 🐛 Troubleshooting
 
