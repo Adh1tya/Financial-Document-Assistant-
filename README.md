@@ -56,7 +56,7 @@ A web application that processes financial documents (PDF and Excel) and provide
 - "Show me the profit margins"
 - "When was this transaction made?"
 
-## 🔧 Configuration
+## Configuration
 
 ### Supported File Formats
 - **PDF**: Financial statements, invoices, reports
